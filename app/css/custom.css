@@ -87,7 +87,7 @@ Authors: Coverdale Group
 
 .category-navigation .navbar .container .navbar-nav.pull-right li a,
 .category-navigation .navbar .container-view .navbar-nav.pull-right li a {
-    padding:10px;
+    padding:30px 10px;
     color: #5a5a5a;
     font-weight: bold;
 }
@@ -96,6 +96,7 @@ Authors: Coverdale Group
 .category-navigation .navbar .container-view .navbar-nav.pull-right li ul li a {
     padding:10px;
 }
+
 
 .category-navigation .navbar .container .navbar-nav.pull-right li a:hover,
 .category-navigation .navbar .container-view .navbar-nav.pull-right li a:hover,
@@ -254,41 +255,57 @@ input, button, select, textarea {
 }
 
 .btn-info {
-    border-color: #24c611;
-}
-
-.btn-info {
+	border-color: #24c611;
     background-color: #24c611;
 }
+
+.btn-info:hover {
+	background-color: #1da30d;
+}
+
+
+
 
 .btn-primary {
+	border-color: #24c611;
     background-color: #24c611;
 }
+
+.btn-info:hover {
+	background-color: #1da30d;
+}
+
 
 .btn-danger {
-    border-color: #24c611;
-}
-
-.btn-danger {
+	border-color: #24c611;
     background-color: #24c611;
 }
+
+.btn-danger:hover {
+	background-color: #1da30d;
+}
+
+
 
 .btn-warning {
-    border-color: #24c611;
-}
-
-.btn-warning {
+	border-color: #24c611;
     background-color: #24c611;
 }
 
-.btn-success {
-    border-color: #24c611;
+.btn-warning:hover {
+	background-color: #1da30d;
 }
 
+
+
 .btn-success {
+	border-color: #24c611;
     background-color: #24c611;
 }
 
+.btn-success:hover {
+	background-color: #1da30d;
+}
 
 
 
@@ -389,7 +406,7 @@ input, button, select, textarea {
 
 .panel-category-list ul li .well {
 
-    height: 245px;
+    height: 300px;
 }
 
 .panel-category-list ul li a {
