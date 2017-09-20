@@ -394,9 +394,11 @@ input, button, select, textarea {
     padding-top: 0;
 }
 
-.well {
-    /*height: 300px;*/
-    padding: 15px 0 12px 0;
+
+
+.panel-product-list .well {
+	height: 250px;
+	padding: 50px;
 }
 
 .search-view .panel-product-list .well {
@@ -405,7 +407,7 @@ input, button, select, textarea {
 
 
 .panel-category-list ul li .well {
-
+	
     height: 300px;
 }
 
